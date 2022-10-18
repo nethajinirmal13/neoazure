@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i56127bbhmfc)v33#n+3mlfg6bty909w#9$))9@)u&8+g@r*8l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','neofsd.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','neofsd.herokuapp.com','https://neodjangazure.azurewebsites.net','neodjang-azure.herokuapp.com']
 
 
 # Application definition
