@@ -76,19 +76,19 @@ WSGI_APPLICATION = 'first.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-   'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-   # 'default': {
-    #    'ENGINE': 'django.db.backends.mysql',
-     #   'NAME': 'neo',
-      #  'USER': 'root',
-       # 'PASSWORD': '',
-        #'HOST':'localhost',
-        #'HOST':'127.0.0.1',#for mac socket issue
-        #'PORT':'3306',
+   #'default': {
+    #    'ENGINE': 'django.db.backends.sqlite3',
+    #    'NAME': BASE_DIR / 'db.sqlite3',
     #}
+   'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'neodb',
+        'USER': 'neo',
+        'PASSWORD': 'Azure@123',
+        'HOST':'neodb.mysql.database.azure.com',
+        #'HOST':'127.0.0.1',#for mac socket issue
+        'PORT':'3306',
+    }
 }
 
 
